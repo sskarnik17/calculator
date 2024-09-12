@@ -12,6 +12,7 @@ exports.calculate = function(req, res) {
 
   var operations = {
     'add':      function(a,b) { return +a + +b },
+    //using plus operator to type cast variables as integers in order to prevent line stating
     'subtract': function(a,b) { return a - b },
     'multiply': function(a,b) { return a * b },
     'divide':   function(a,b) { return a / b },
